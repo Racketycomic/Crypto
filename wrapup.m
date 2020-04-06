@@ -5,7 +5,7 @@ while true,
     encrypt();
     case 2
     cipher=input("Enter the cipher text\n",'s')
-    key=input("Enter the key",'s')
+    key=input("Enter the key\n",'s')
     decrypt(cipher,key)
     case 3
     break;
